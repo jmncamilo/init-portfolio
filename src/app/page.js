@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 import { Navbar } from "@/components/navbar/Navbar";
 import { TechBadge } from "@/components/tech-badge/TechBadge";
+import { ProjectCard } from "@/components/project-card/ProjectCard";
+import { StackSection } from "@/components/stack-section/StackSection";
 import {
     Github,
     Linkedin,

@@ -2,9 +2,11 @@ import { useState } from "react";
 import Image from "next/image";
 import { Briefcase, Cpu, Eye, Github, ExternalLink } from "lucide-react";
 
-// Este componente incluye funcionalidad de "Vista Instantánea" con un efecto de revelado de enfoque (similar a iOS)
+// Este componente incluye funcionalidad de 'vista instantánea' con un efecto de revelado de enfoque (similar a iOS)
 export function ProjectCard({ title, desc, problem, learned, stack, github, demo, image, type }) {
     const [showPreview, setShowPreview] = useState(false);
+
+    // TODO: ícono de GitHub está deprecado en lucide react, razón por la que se debe importar como svg en este componente para evitar problema futuros
 
     return (
         <div
