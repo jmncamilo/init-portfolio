@@ -5,7 +5,7 @@ export const businessProjects = [
         problem: "Empresas perdiendo dinero por quiebre de stock o exceso de inventario muerto.",
         learned: "Implementación de lógica de negocio compleja y manejo de grandes volúmenes de datos.",
         stack: ["React", "Node.js", "Chart.js", "PostgreSQL"],
-        image: "https://images.unsplash.com/photo-1551288049-bbbda536339a?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
         github: "#",
         demo: "#",
         type: "business"

@@ -17,7 +17,14 @@ const nextConfig = {
                 hostname: 'www.svgrepo.com',
                 pathname: '/**',
             },
+            {
+                protocol: 'https',
+                hostname: 'unsplash.com',
+            }
         ],
+        dangerouslyAllowSVG: true,
+        contentDispositionType: 'attachment',
+        contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     },
 };
 
