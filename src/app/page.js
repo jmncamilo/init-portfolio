@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 import { Navbar } from "@/components/navbar/Navbar";
+import { TechBadge } from "@/components/tech-badge/TechBadge";
 import {
     Github,
     Linkedin,
