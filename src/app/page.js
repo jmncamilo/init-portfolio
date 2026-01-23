@@ -33,14 +33,14 @@ export default function Landing() {
                                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
                                     <span className="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
                                 </span>
-                                Junior Developer & Business Strategist
+                                Desarrollador de Software & Negociador Internacional
                             </div>
 
                             <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
-                                Traduzco lógica de negocio en
+                                Transformo desafíos de negocio en
                                 <br/>
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb923c] to-[#f43f5e]">
-                                    soluciones tecnológicas.
+                                    software que escala.
                                 </span>
                             </h1>
 
@@ -163,10 +163,11 @@ export default function Landing() {
                             <div
                                 className="relative w-40 h-40 md:w-48 md:h-48 rounded-2xl overflow-hidden border border-white/10 bg-[#1e1e22]">
                                 <Image
-                                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop"
-                                    alt="Perfil Profesional"
+                                    src="/misc/profile-pic-cj.png"
+                                    alt="Foto profesional"
+                                    quality={100}
                                     fill
-                                    className="object-cover grayscale hover:grayscale-0 transition-all duration-700 contrast-[1.1]"
+                                    className="object-cover grayscale hover:grayscale-0 transition-all duration-700 contrast-[1]"
                                 />
                             </div>
                         </div>
@@ -174,7 +175,7 @@ export default function Landing() {
                         <div className="flex-grow space-y-4 text-center md:text-left">
                             <div
                                 className="inline-block px-3 py-1 rounded-md bg-white/5 text-[10px] text-gray-500 uppercase tracking-[0.2em] font-bold">
-                                Sobre el autor
+                                Sobre mí
                             </div>
                             <p className="text-lg md:text-xl text-gray-300 leading-relaxed font-medium">
                                 Creo que el código es una herramienta de precisión, pero el propósito de cualquier
@@ -182,8 +183,8 @@ export default function Landing() {
                                 Busco integrar la elegancia del software con la eficacia del negocio.
                             </p>
                             <div className="pt-2 flex flex-col gap-1">
-                                <span className="text-white font-bold tracking-tight">Nombre del Desarrollador</span>
-                                <span className="text-xs text-gray-500 uppercase tracking-widest font-medium">Programador Junior & Analista de Negocios</span>
+                                <span className="text-white font-bold tracking-tight">Camilo Jiménez</span>
+                                <span className="text-xs text-gray-500 uppercase tracking-widest font-medium">Desarrollador de Software & Negociador Internacional</span>
                             </div>
                         </div>
                     </div>
@@ -193,12 +194,33 @@ export default function Landing() {
             <footer className="py-12 border-t border-white/5 px-6">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
                     <div className="text-gray-500 text-sm">
-                        © {new Date().getFullYear()} — Diseñado con inspiración JetBrains.
+                        © {new Date().getFullYear()} — Si funciona, no se toca...
                     </div>
                     <div className="flex gap-8 text-xs font-bold uppercase tracking-widest text-gray-500">
-                        <a href="#" className="hover:text-white transition-colors">GitHub</a>
-                        <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
-                        <a href="#" className="hover:text-white transition-colors">Twitter</a>
+                        <a
+                            href="https://github.com/jmncamilo"
+                            className="hover:text-white transition-colors"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/camilojimenz/"
+                            className="hover:text-white transition-colors"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn
+                        </a>
+                        <a
+                            href="mailto:jmncamilo@gmail.com"
+                            className="hover:text-white transition-colors"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Contáctame
+                        </a>
                     </div>
                 </div>
             </footer>
