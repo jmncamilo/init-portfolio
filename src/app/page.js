@@ -131,7 +131,7 @@ export default function Landing() {
                         </p>
 
                         <div className="grid md:grid-cols-3 gap-4 mb-12">
-                            <a href="mailto:tu-email@dominio.com"
+                            <a href="mailto:jmncamilo@gmail.com"
                                className="flex flex-col items-center gap-3 p-6 rounded-2xl bg-[#1e1e22] border border-white/5 hover:bg-white/10 transition-all">
                                 <Mail className="text-orange-500"/>
                                 <span className="text-sm font-medium">Email</span>

@@ -17,7 +17,7 @@ export function TechBadge({ name, iconUrl }) {
                     width={20}
                     height={20}
                     className="grayscale group-hover:grayscale-0 transition-all"
-                    onError={() => setImgSrc('https://www.svgrepo.com/show/354380/stack-overflow-icon.svg')}
+                    onError={() => setImgSrc('https://www.svgrepo.com/svg/475686/stackoverflow-color')}
                 />
             </div>
             <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors">{name}</span>

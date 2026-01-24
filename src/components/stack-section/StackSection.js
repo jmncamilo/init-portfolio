@@ -3,7 +3,7 @@ import { Terminal } from "lucide-react";
 import { TechBadge } from "@/components/tech-badge/TechBadge";
 
 export function StackSection() {
-    // Constantes para las categorías del tech stack mostradas en la lading
+    // Constantes para las categorías del tech stack mostradas en la landing
     const categories = [
         {
         title: "Frontend",
@@ -42,7 +42,7 @@ export function StackSection() {
                             <h3 className="text-sm font-bold text-gray-400 uppercase tracking-widest">{cat.title}</h3>
                         </div>
                         <div className="grid grid-cols-1 gap-2">
-                            {cat.techs.map((tech) => (<TechBadge key={tech} name={tech}/>))}
+                            {cat.techs.map((tech) => (<TechBadge key={tech} name={tech} />))}
                         </div>
                     </div>))}
                 </div>
