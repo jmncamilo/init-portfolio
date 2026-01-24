@@ -1,29 +1,30 @@
 import { Layers, Database, Settings2, Cpu, Briefcase } from "lucide-react";
 import { Terminal } from "lucide-react";
 import { TechBadge } from "@/components/tech-badge/TechBadge";
+import { logoDictionary } from "@/utils/dictionaries/logoDictionary";
 
 export function StackSection() {
     // Constantes para las categorías del tech stack mostradas en la landing
     const categories = [
         {
-        title: "Frontend",
-        icon: <Layers size={18} className="text-blue-400"/>,
-        techs: ["React", "Next.js", "Tailwind CSS", "JavaScript"]
+            title: "Frontend",
+            icon: <Layers size={18} className="text-blue-400"/>,
+            techs: ['Next.js', 'React.js', 'JavaScript', 'Tailwind CSS', 'Bootstrap', 'CSS', 'HTML5']
         },
         {
-        title: "Backend",
-        icon: <Terminal size={18} className="text-green-400"/>,
-        techs: ["Node.js", "Express", "Python"]
+            title: "Backend",
+            icon: <Terminal size={18} className="text-green-400"/>,
+            techs: ['Node.js', 'Express.js', 'Jest']
         },
         {
-        title: "Data",
-        icon: <Database size={18} className="text-orange-400"/>,
-        techs: ["PostgreSQL", "MongoDB", "Firebase"]
+            title: "Data",
+            icon: <Database size={18} className="text-orange-400"/>,
+            techs: ['PostgreSQL', 'MySQL', 'MongoDB', 'Supabase']
         },
         {
-        title: "Tooling",
-        icon: <Settings2 size={18} className="text-purple-400"/>,
-        techs: ["Git", "GitHub", "Docker", "Vercel"]
+            title: "Tooling",
+            icon: <Settings2 size={18} className="text-purple-400"/>,
+            techs: ['Git', 'GitHub', 'Docker', 'Railway', 'Render', 'Vercel', 'Vite']
         }
     ];
 
@@ -32,7 +33,7 @@ export function StackSection() {
             <div className="max-w-7xl mx-auto">
                 <div className="mb-16">
                     <h2 className="text-sm font-bold text-orange-500 uppercase tracking-[0.3em] mb-4">Tech Stack</h2>
-                    <p className="text-3xl font-bold text-white">Herramientas y Competencias</p>
+                    <p className="text-3xl font-bold text-white">Habilidades y Tecnologías</p>
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -42,7 +43,7 @@ export function StackSection() {
                             <h3 className="text-sm font-bold text-gray-400 uppercase tracking-widest">{cat.title}</h3>
                         </div>
                         <div className="grid grid-cols-1 gap-2">
-                            {cat.techs.map((tech) => (<TechBadge key={tech} name={tech} />))}
+                            {cat.techs.map((tech) => (<TechBadge key={tech} name={tech} iconUrl={logoDictionary[tech]}/>))}
                         </div>
                     </div>))}
                 </div>
@@ -57,28 +58,29 @@ export function StackSection() {
                         <div className="relative z-10">
                             <div className="flex items-center gap-2 mb-6">
                                 <Cpu size={20} className="text-rose-500"/>
-                                <h3 className="text-sm font-bold text-gray-400 uppercase tracking-widest">Low Level /
-                                    Ingeniería Inversa</h3>
+                                <h3 className="text-sm font-bold text-gray-400 uppercase tracking-widest">Low Level</h3>
                             </div>
 
                             <div className="grid md:grid-cols-2 gap-8">
                                 <div>
-                                    <h4 className="text-xs font-bold text-gray-500 uppercase mb-4 tracking-tighter">Lenguajes
-                                        & Bases</h4>
+                                    <h4 className="text-xs font-bold text-gray-500 uppercase mb-4 tracking-tighter">
+                                        Lenguajes
+                                    </h4>
                                     <div className="space-y-2">
-                                        <TechBadge name="C++"/>
-                                        <TechBadge name="C"/>
-                                        <TechBadge name="Assembly"/>
+                                        <TechBadge name="Java" iconUrl={logoDictionary['Java']} />
+                                        <TechBadge name="Python" iconUrl={logoDictionary['Python']} />
+                                        <TechBadge name="C++" iconUrl={logoDictionary['C++']} />
+                                        <TechBadge name="C++" iconUrl={logoDictionary['Assembly']} />
                                     </div>
                                 </div>
                                 <div>
                                     <h4 className="text-xs font-bold text-gray-500 uppercase mb-4 tracking-tighter">
-                                        Conceptos Técnicos
+                                        Fundamentos Técnicos
                                     </h4>
                                     <div className="flex flex-wrap gap-2">
-                                        {["Debugging", "Binary Analysis", "Memory Offsets", "Hex-Editing", "Pointer Relocation", "CPU Architectures"].map(concept => (
+                                        {['Debugging', 'Memory Offsets', 'Hex-Editing', 'Pointer Relocation', 'Reverse Engineering'].map((concept, idx) => (
                                             <span
-                                                key={concept}
+                                                key={idx}
                                                 className="px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-gray-300 font-medium hover:bg-white/10 transition-colors">
                                                 {concept}
                                             </span>)
@@ -94,36 +96,32 @@ export function StackSection() {
                         <div>
                             <div className="flex items-center gap-2 mb-6">
                                 <Briefcase size={20} className="text-gray-400"/>
-                                <h3 className="text-sm font-bold text-gray-500 uppercase tracking-widest">Business
-                                    Context</h3>
+                                <h3 className="text-sm font-bold text-gray-500 uppercase tracking-widest">Beyond Code</h3>
                             </div>
                             <ul className="space-y-4">
                                 <li className="flex gap-3">
                                     <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"/>
                                     <p className="text-sm text-gray-300 leading-relaxed">
-                                        <strong>Pensamiento de producto:</strong> Enfoque en resolver problemas reales
-                                        del usuario.
+                                        <strong>Pensamiento de producto:</strong> Diseño centrado en el usuario y resolución efectiva de requerimientos.
                                     </p>
                                 </li>
                                 <li className="flex gap-3">
                                     <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"/>
                                     <p className="text-sm text-gray-300 leading-relaxed">
-                                        <strong>Visión de negocio:</strong> Optimización de procesos para maximizar el
-                                        ROI técnico.
+                                        <strong>Visión de negocio:</strong> Análisis de datos y KPIs para optimizar el desarrollo.
                                     </p>
                                 </li>
                                 <li className="flex gap-3">
                                     <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"/>
                                     <p className="text-sm text-gray-300 leading-relaxed">
-                                        <strong>Comunicación efectiva:</strong> Capacidad de explicar tecnicismos a
-                                        stakeholders no técnicos.
+                                        <strong>Perspectiva comercial:</strong> Desarrollo Fullstack con enfoque en crecimiento comercial.
                                     </p>
                                 </li>
                             </ul>
                         </div>
                         <div className="mt-8 pt-6 border-t border-white/5">
                             <p className="text-[11px] text-gray-500 font-medium uppercase tracking-widest italic">
-                                Junior, pero con criterio empresarial.
+                                Desarrollador Fullstack con enfoque estratégico y comercial.
                             </p>
                         </div>
                     </div>

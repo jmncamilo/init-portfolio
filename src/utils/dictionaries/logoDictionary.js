@@ -30,6 +30,7 @@ export const logoDictionary = {
     Bootstrap: bootstrap,
     'C++': cplusplus,
     CSS: css,
+    CSS3: css,
     Docker: docker,
     'Express.js': expressjs,
     Git: git,

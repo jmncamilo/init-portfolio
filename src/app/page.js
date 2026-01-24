@@ -37,7 +37,7 @@ export default function Landing() {
                             </div>
 
                             <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
-                                Transformo desafíos de negocio en
+                                Transformando desafíos de negocio en
                                 <br/>
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb923c] to-[#f43f5e]">
                                     software que escala.
