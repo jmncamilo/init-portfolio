@@ -70,7 +70,7 @@ export function StackSection() {
                                         <TechBadge name="Java" iconUrl={logoDictionary['Java']} />
                                         <TechBadge name="Python" iconUrl={logoDictionary['Python']} />
                                         <TechBadge name="C++" iconUrl={logoDictionary['C++']} />
-                                        <TechBadge name="C++" iconUrl={logoDictionary['Assembly']} />
+                                        <TechBadge name="Assembly" iconUrl={logoDictionary['Assembly']} />
                                     </div>
                                 </div>
                                 <div>
@@ -102,26 +102,26 @@ export function StackSection() {
                                 <li className="flex gap-3">
                                     <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"/>
                                     <p className="text-sm text-gray-300 leading-relaxed">
-                                        <strong>Pensamiento de producto:</strong> Diseño centrado en el usuario y resolución efectiva de requerimientos.
+                                        <strong>Pensamiento de producto:</strong> diseño centrado en el usuario y resolución efectiva de requerimientos.
                                     </p>
                                 </li>
                                 <li className="flex gap-3">
                                     <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"/>
                                     <p className="text-sm text-gray-300 leading-relaxed">
-                                        <strong>Visión de negocio:</strong> Análisis de datos y KPIs para optimizar el desarrollo.
+                                        <strong>Visión de negocio:</strong> análisis de datos y de KPIs para optimizar el desarrollo.
                                     </p>
                                 </li>
                                 <li className="flex gap-3">
                                     <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0"/>
                                     <p className="text-sm text-gray-300 leading-relaxed">
-                                        <strong>Perspectiva comercial:</strong> Desarrollo Fullstack con enfoque en crecimiento comercial.
+                                        <strong>Perspectiva comercial:</strong> optimización técnica orientada a mejorar el funnel de adquisición.
                                     </p>
                                 </li>
                             </ul>
                         </div>
                         <div className="mt-8 pt-6 border-t border-white/5">
                             <p className="text-[11px] text-gray-500 font-medium uppercase tracking-widest italic">
-                                Desarrollador Fullstack con enfoque estratégico y comercial.
+                                Desarrollador Fullstack que entiende el negocio detrás del código
                             </p>
                         </div>
                     </div>

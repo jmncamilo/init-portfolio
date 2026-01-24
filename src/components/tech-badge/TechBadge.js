@@ -14,9 +14,10 @@ export function TechBadge({ name, iconUrl }) {
                 <Image
                     src={imgSrc}
                     alt={name}
-                    width={20}
-                    height={20}
-                    className="grayscale group-hover:grayscale-0 transition-all"
+                    width={22}
+                    height={22}
+                    quality={100}
+                    className="saturate-0 brightness-[0.60] group-hover:saturate-100 group-hover:brightness-100 transition-all"
                     onError={() => setImgSrc('https://www.svgrepo.com/svg/475686/stackoverflow-color')}
                 />
             </div>

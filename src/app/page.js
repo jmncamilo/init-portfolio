@@ -40,7 +40,7 @@ export default function Landing() {
                                 Transformando desafíos de negocio en
                                 <br/>
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb923c] to-[#f43f5e]">
-                                    software que escala.
+                                    software que escala
                                 </span>
                             </h1>
 
