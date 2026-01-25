@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 
 export default function Landing() {
+    // TODO: redacción final del inicio
 
     return (
         <div className="min-h-screen bg-[#111113] text-gray-200 font-sans selection:bg-orange-500/30">
@@ -45,8 +46,8 @@ export default function Landing() {
                             </h1>
 
                             <p className="text-xl text-gray-400 mb-8 max-w-2xl leading-relaxed">
-                                Con background en <strong>Negocios Internacionales</strong> e ingeniería técnica profunda.
-                                No solo escribo código, entiendo por qué el código debe existir para generar valor.
+                                Soy un <strong>apasionado del código</strong> con visión comercial, capaz de transformar
+                                requerimientos de negocio en productos digitales con impacto real en el mercado.
                             </p>
 
                             <div className="flex flex-wrap gap-4">
@@ -71,11 +72,10 @@ export default function Landing() {
                                     <Code2 size={120} className="text-white/20"/>
                                     <div
                                         className="absolute bottom-4 left-4 right-4 p-4 bg-black/40 backdrop-blur-md rounded-xl border border-white/5">
-                                        <div
-                                            className="text-xs font-bold text-white mb-1 uppercase tracking-tighter">Stack
-                                            Principal
+                                        <div className="text-xs font-bold text-white mb-1 uppercase tracking-tighter">
+                                            Stack Principal
                                         </div>
-                                        <div className="text-[10px] text-gray-400">Next.js • React • Node • C++</div>
+                                        <div className="text-[10px] text-gray-400">Next.js • Express.js • PostgreSQL</div>
                                     </div>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ export default function Landing() {
                                 <div
                                     className="h-px flex-grow bg-gradient-to-r from-transparent to-purple-500/50"></div>
                                 <h2 className="text-2xl md:text-3xl font-bold text-white flex items-center gap-3 italic">
-                                    <Cpu className="text-purple-500"/> Ingeniería Técnica (ROM Hacking)
+                                    <Cpu className="text-purple-500"/> Retos Personales
                                 </h2>
                                 <div
                                     className="h-px flex-grow bg-gradient-to-l from-transparent to-purple-500/50"></div>
@@ -122,12 +122,12 @@ export default function Landing() {
                         className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
 
                     <div className="max-w-3xl mx-auto text-center">
-                        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 italic tracking-tight">¿Hablamos
-                            de negocios o de código?</h2>
+                        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 italic tracking-tight">
+                            ¡Construyamos software con valor!
+                        </h2>
                         <p className="text-gray-400 mb-12 text-lg">
-                            Estoy buscando mi primera oportunidad profesional donde pueda aportar mi criterio técnico y
-                            visión comercial.
-                            Si buscas un Junior con pensamiento crítico, envíame un mensaje.
+                            Busco integrarme a equipos que promuevan la innovación y los procesos disruptivos para crear valor al mundo,
+                            aportando mi criterio técnico y análisis de negocio en la resolución de problemas reales orientados al crecimiento y la competitividad.
                         </p>
 
                         <div className="grid md:grid-cols-3 gap-4 mb-12">
@@ -150,7 +150,7 @@ export default function Landing() {
 
                         <button
                             className="w-full p-8 rounded-3xl bg-gradient-to-tr from-orange-600 to-rose-600 text-white font-bold text-xl cursor-pointer hover:shadow-2xl hover:shadow-orange-500/20 transition-all">
-                            Impulsemos tu proyecto juntos
+                            Resolvamos desafíos juntos
                         </button>
                     </div>
                 </section>
@@ -175,12 +175,11 @@ export default function Landing() {
                         <div className="flex-grow space-y-4 text-center md:text-left">
                             <div
                                 className="inline-block px-3 py-1 rounded-md bg-white/5 text-[10px] text-gray-500 uppercase tracking-[0.2em] font-bold">
-                                Sobre mí
+                                Mi perspectiva
                             </div>
                             <p className="text-lg md:text-xl text-gray-300 leading-relaxed font-medium">
-                                Creo que el código es una herramienta de precisión, pero el propósito de cualquier
-                                sistema debe ser siempre humano.
-                                Busco integrar la elegancia del software con la eficacia del negocio.
+                                Cuando recibí mi primera computadora, descubrí que todo lo imaginable es programable.
+                                Hoy busco con vocación la elegancia técnica, convencido de que cualquier idea puede materializarse con código. ¡Es un superpoder!
                             </p>
                             <div className="pt-2 flex flex-col gap-1">
                                 <span className="text-white font-bold tracking-tight">Camilo Jiménez</span>

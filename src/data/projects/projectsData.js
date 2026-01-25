@@ -15,7 +15,7 @@ export const businessProjects = [
         desc: "Gestor de clientes y seguimiento de embarques para logística internacional.",
         problem: "Desorganización en el seguimiento de contenedores y falta de visibilidad del pipeline comercial.",
         learned: "Diseño de UX enfocado en productividad y flujo de trabajo administrativo.",
-        stack: ["Next.js", "Tailwind", "Firebase"],
+        stack: ["Next.js", "Tailwind", "Firebase", "Cloud (Render, Railway, Vercel)"],
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
         github: "#",
         demo: "#",
