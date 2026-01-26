@@ -135,12 +135,12 @@ export default function Landing() {
                                 <Mail className="text-orange-500"/>
                                 <span className="text-sm font-medium">Email</span>
                             </a>
-                            <a href="#"
+                            <a href="https://www.linkedin.com/in/camilojimenz/"
                                className="flex flex-col items-center gap-3 p-6 rounded-2xl bg-[#1e1e22] border border-white/5 hover:bg-white/10 transition-all">
                                 <Linkedin className="text-blue-500"/>
                                 <span className="text-sm font-medium">LinkedIn</span>
                             </a>
-                            <a href="#"
+                            <a href="https://github.com/jmncamilo"
                                className="flex flex-col items-center gap-3 p-6 rounded-2xl bg-[#1e1e22] border border-white/5 hover:bg-white/10 transition-all">
                                 <Github className="text-white"/>
                                 <span className="text-sm font-medium">GitHub</span>

@@ -1,12 +1,12 @@
 export const businessProjects = [
     {
-        title: "Stock Intelligence Dashboard",
-        desc: "Plataforma de visualización de inventarios con predicción de demanda basada en historial.",
-        problem: "Empresas perdiendo dinero por quiebre de stock o exceso de inventario muerto.",
-        learned: "Implementación de lógica de negocio compleja y manejo de grandes volúmenes de datos.",
-        stack: ["React", "Node.js", "Chart.js", "PostgreSQL"],
+        title: "Gymember - The Member Connection",
+        desc: "SaaS para gimnasios PYME en Colombia que automatiza membresías y centraliza métricas de negocio, eliminando la informalidad administrativa.",
+        problem: "Falta de trazabilidad y registros manuales que generan fugas de dinero y riesgos contables.",
+        learned: "Arquitectura MVC con clara separación de responsabilidades, API de lógica modular y UX diseñada para optimizar flujos operativos reales.",
+        stack: ["React.js", "Express.js", "MySQL", "Jest"],
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
-        github: "#",
+        github: "https://github.com/jmncamilo/gymember-app",
         demo: "#",
         type: "business"
     },
