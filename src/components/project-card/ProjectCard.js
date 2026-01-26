@@ -82,16 +82,16 @@ export function ProjectCard({ title, desc, problem, learned, stack, github, demo
                 </div>
 
                 <h3 className="text-xl font-bold text-white mb-2 group-hover:text-orange-400 transition-colors">{title}</h3>
-                <p className="text-gray-400 text-sm mb-4 leading-relaxed line-clamp-2">{desc}</p>
+                <p className="text-gray-400 text-base mb-4 leading-relaxed line-clamp-2">{desc}</p>
 
                 <div className="space-y-3 mb-6 flex-grow">
                     <div>
-                        <span className="text-[10px] uppercase tracking-widest text-gray-500 font-bold block mb-1">Problema Resuelto</span>
-                        <p className="text-xs text-gray-300 italic">&quot;{problem}&quot;</p>
+                        <span className="text-[0.75rem] uppercase tracking-widest text-gray-500 font-bold block mb-1">Problema Resuelto</span>
+                        <p className="text-[0.9rem] text-gray-300 italic">&quot;{problem}&quot;</p>
                     </div>
                     <div>
-                        <span className="text-[10px] uppercase tracking-widest text-gray-500 font-bold block mb-1">Aprendizaje Clave</span>
-                        <p className="text-xs text-gray-300">{learned}</p>
+                        <span className="text-[0.75rem] uppercase tracking-widest text-gray-500 font-bold block mb-1">Aprendizaje Clave</span>
+                        <p className="text-[0.9rem] text-gray-300">{learned}</p>
                     </div>
                 </div>
 

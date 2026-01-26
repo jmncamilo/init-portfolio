@@ -51,7 +51,7 @@ export default function Landing() {
 
                             <div className="flex flex-wrap gap-4">
                                 <a href="#proyectos"
-                                   className="flex items-center gap-2 px-8 py-4 bg-white text-black font-bold rounded-xl hover:bg-orange-500 hover:text-white transition-all transform hover:-translate-y-1">
+                                   className="flex items-center gap-2 px-8 py-4 bg-white text-black font-bold rounded-xl hover:bg-[#e2734b] hover:text-white transition-all transform hover:-translate-y-1">
                                     Ver Proyectos
                                 </a>
                                 <button
@@ -71,10 +71,10 @@ export default function Landing() {
                                     <Code2 size={120} className="text-white/20"/>
                                     <div
                                         className="absolute bottom-4 left-4 right-4 p-4 bg-black/40 backdrop-blur-md rounded-xl border border-white/5">
-                                        <div className="text-xs font-bold text-white mb-1 uppercase tracking-tighter">
+                                        <div className="text-sm font-bold text-white mb-1 uppercase tracking-tighter">
                                             Stack Principal
                                         </div>
-                                        <div className="text-[10px] text-gray-400">Next.js • Express.js • PostgreSQL</div>
+                                        <div className="text-[0.8rem] font-black text-gray-500">Next.js | Express.js | PostgreSQL</div>
                                     </div>
                                 </div>
                             </div>
