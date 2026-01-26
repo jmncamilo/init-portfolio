@@ -19,7 +19,7 @@ export default function Landing() {
     // TODO: redacción final del inicio
 
     return (
-        <div className="min-h-screen bg-[#111113] text-gray-200 font-sans selection:bg-orange-500/30">
+        <div className="min-h-screen bg-[#111113] text-gray-200 selection:bg-orange-500/30">
             <Navbar/>
 
             <main className="pt-20">
