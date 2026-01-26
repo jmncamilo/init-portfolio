@@ -32,7 +32,7 @@ export function StackSection() {
         <section className="py-24 px-6 bg-[#111113]">
             <div className="max-w-7xl mx-auto">
                 <div className="mb-16">
-                    <h2 className="text-sm font-bold text-orange-500 uppercase tracking-[0.3em] mb-4">Tech Stack</h2>
+                    <h2 className="text-lg font-black text-orange-500 uppercase tracking-[0.3em] mb-4">Tech Stack</h2>
                     <p className="text-3xl font-bold text-white">Habilidades y Tecnologías</p>
                 </div>
 

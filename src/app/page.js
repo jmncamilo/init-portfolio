@@ -16,7 +16,6 @@ import {
 } from 'lucide-react';
 
 export default function Landing() {
-    // TODO: redacción final del inicio
 
     return (
         <div className="min-h-screen bg-[#111113] text-gray-200 selection:bg-orange-500/30">
@@ -29,7 +28,7 @@ export default function Landing() {
 
                     <div className="max-w-7xl mx-auto grid md:grid-cols-12 gap-12 items-center">
                         <div className="md:col-span-8 relative z-10">
-                            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-orange-400 text-xs font-bold uppercase tracking-widest mb-6">
+                            <div className="inline-flex items-center gap-2 px-3 py-2 rounded-full bg-white/5 border border-white/10 text-orange-400 text-xs font-bold uppercase tracking-widest mb-6">
                                 <span className="relative flex h-2 w-2">
                                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
                                     <span className="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
@@ -37,7 +36,7 @@ export default function Landing() {
                                 Desarrollador de Software & Negociador Internacional
                             </div>
 
-                            <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
+                            <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-tight">
                                 Transformando desafíos de negocio en
                                 <br/>
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fb923c] to-[#f43f5e]">
@@ -45,7 +44,7 @@ export default function Landing() {
                                 </span>
                             </h1>
 
-                            <p className="text-xl text-gray-400 mb-8 max-w-2xl leading-relaxed">
+                            <p className="text-xl font-medium text-gray-400 mb-8 max-w-2xl leading-relaxed">
                                 Soy un <strong>apasionado del código</strong> con visión comercial, capaz de transformar
                                 requerimientos de negocio en productos digitales con impacto real en el mercado.
                             </p>
@@ -122,10 +121,10 @@ export default function Landing() {
                         className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
 
                     <div className="max-w-3xl mx-auto text-center">
-                        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 italic tracking-tight">
+                        <h2 className="text-4xl md:text-5xl font-black text-white mb-6 italic tracking-tight">
                             ¡Construyamos software con valor!
                         </h2>
-                        <p className="text-gray-400 mb-12 text-lg">
+                        <p className="text-gray-400 mb-12 text-xl">
                             Busco integrarme a equipos que promuevan la innovación y los procesos disruptivos para crear valor al mundo,
                             aportando mi criterio técnico y análisis de negocio en la resolución de problemas reales orientados al crecimiento y la competitividad.
                         </p>
@@ -149,7 +148,7 @@ export default function Landing() {
                         </div>
 
                         <button
-                            className="w-full p-8 rounded-3xl bg-gradient-to-tr from-orange-600 to-rose-600 text-white font-bold text-xl cursor-pointer hover:shadow-2xl hover:shadow-orange-500/20 transition-all">
+                            className="w-full p-8 rounded-3xl bg-gradient-to-tr from-orange-600 to-rose-600 text-white font-bold text-2xl cursor-pointer hover:shadow-2xl hover:shadow-orange-500/20 transition-all">
                             Resolvamos desafíos juntos
                         </button>
                     </div>
@@ -182,7 +181,7 @@ export default function Landing() {
                                 Hoy busco con vocación la elegancia técnica, convencido de que cualquier idea puede materializarse con código. ¡Es un superpoder!
                             </p>
                             <div className="pt-2 flex flex-col gap-1">
-                                <span className="text-white font-bold tracking-tight">Camilo Jiménez</span>
+                                <span className="text-white font-bold text-lg tracking-tight">Camilo Jiménez</span>
                                 <span className="text-xs text-gray-500 uppercase tracking-widest font-medium">Desarrollador de Software & Negociador Internacional</span>
                             </div>
                         </div>
