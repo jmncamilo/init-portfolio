@@ -6,6 +6,30 @@
     --font-lato: '';
 }
 
+/* Chrome, Safari, Edge - Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f0f0f;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(249, 115, 22, 0.3);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(249, 115, 22, 0.4);
+}
+
+/* Firefox - Scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(249, 115, 22, 0.3) #0f0f0f;
+}
+
 body {
     background: var(--background);
     color: var(--foreground);
