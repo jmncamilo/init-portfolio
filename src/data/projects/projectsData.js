@@ -16,7 +16,7 @@ export const businessProjects = [
         problem: "Falta de trazabilidad y registros manuales que generan fugas de dinero y riesgos contables.",
         learned: "Arquitectura MVC con clara separación de responsabilidades, API de lógica modular y UX diseñada para optimizar flujos operativos reales.",
         stack: ["React.js", "Express.js", "MySQL", "Jest"],
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
+        image: "/banners/gymember-app-banner-v3.png",
         github: "https://github.com/jmncamilo/gymember-app",
         demo: "#",
         type: "business"
