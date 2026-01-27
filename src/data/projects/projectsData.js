@@ -1,5 +1,16 @@
 export const businessProjects = [
     {
+        title: "Huerto Digital Afood",
+        desc: "Aplicación web para clientes afood que integra resumen de pedidos, estado de cuenta y métricas de impacto ambiental.",
+        problem: "Clientes B2B recibían deudas fragmentadas sin trazabilidad y facturas dispersas en correos. Internamente, la reconciliación manual de saldos causaba redundancia e ineficiencia operativa.",
+        learned: "Replicar diseños UX con CSS vanilla e integración de API externa (Airtable) mediante documentación técnica.",
+        stack: ["Next.js", "CSS Vanilla", "Tailwind CSS", "Airtable Web API", "Cloud (Vercel)"],
+        image: "/banners/gif-huerto-afood.gif",
+        github: "https://github.com/jmncamilo/afood-dash",
+        demo: "https://huerto-afood.vercel.app/",
+        type: "business"
+    },
+    {
         title: "Gymember - The Member Connection",
         desc: "SaaS para gimnasios PYME en Colombia que automatiza membresías y centraliza métricas de negocio, eliminando la informalidad administrativa.",
         problem: "Falta de trazabilidad y registros manuales que generan fugas de dinero y riesgos contables.",
@@ -7,17 +18,6 @@ export const businessProjects = [
         stack: ["React.js", "Express.js", "MySQL", "Jest"],
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
         github: "https://github.com/jmncamilo/gymember-app",
-        demo: "#",
-        type: "business"
-    },
-    {
-        title: "International Trade CRM",
-        desc: "Gestor de clientes y seguimiento de embarques para logística internacional.",
-        problem: "Desorganización en el seguimiento de contenedores y falta de visibilidad del pipeline comercial.",
-        learned: "Diseño de UX enfocado en productividad y flujo de trabajo administrativo.",
-        stack: ["Next.js", "Tailwind", "Firebase", "Cloud (Render, Railway, Vercel)"],
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
-        github: "#",
         demo: "#",
         type: "business"
     }

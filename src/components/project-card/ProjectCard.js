@@ -26,6 +26,8 @@ export function ProjectCard({ title, desc, problem, learned, stack, github, demo
                     <Image
                         src={image}
                         alt={title}
+                        unoptimized={image?.endsWith('.gif')}
+                        quality={100}
                         fill
                         className={`object-cover transition-all duration-700 ease-in-out ${showPreview ? 'scale-100 blur-0' : 'scale-110 blur-2xl'}`}
                     />
