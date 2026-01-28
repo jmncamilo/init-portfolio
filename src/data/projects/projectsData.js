@@ -20,6 +20,17 @@ export const businessProjects = [
         github: "https://github.com/jmncamilo/gymember-app",
         demo: "#",
         type: "business"
+    },
+    {
+        title: "Apple Hub",
+        desc: "Sistema basado en roles que optimiza stock, finanzas e integridad de datos para minoristas de productos Apple en ciudades intermedias de Colombia.",
+        problem: "Manipulación de datos, fugas de capital y procesos manuales ineficientes que impiden un control financiero preciso y un manejo seguro del flujo de caja.",
+        learned: "Arquitectura full-stack con Next.js (App Router), integración de PostgreSQL con Supabase y seguridad mediante Control de Acceso Basado en Roles (RBAC).",
+        stack: ["Next.js", "PostgreSQL (Supabase)", "Tailwind CSS", "Cloud (Vercel)"],
+        image: "/banners/gymember-app-banner-v7.png",
+        github: "https://github.com/jmncamilo/apple-hub",
+        demo: "https://apple-hub.vercel.app/",
+        type: "business"
     }
 ];
 
