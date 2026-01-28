@@ -36,13 +36,13 @@ export const businessProjects = [
 
 export const techProjects = [
     {
-        title: "Binary Relocation Tool",
-        desc: "Herramienta CLI para relocalizar punteros en archivos binarios de consolas 16-bit.",
-        problem: "Limitaciones de espacio en memorias ROM al insertar nuevas traducciones o assets.",
-        learned: "Manipulación de buffers, ingeniería inversa y estructuras de datos de bajo nivel.",
-        stack: ["C++", "Python", "Assembly"],
-        image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop",
-        github: "#",
+        title: "RE3 - Mercenaries Item Editor",
+        desc: "Herramienta para editar los objetos iniciales de los personajes en el modo Mercenarios de RE3: Nemesis (1999) [PC] versión SourceNext.",
+        problem: "Limitación del juego original para personalizar el equipo inicial de los personajes en modo Mercenarios.",
+        learned: "Identificación de offsets mediante ingeniería inversa, mapeo de memoria ejecutable y manipulación de bytes.",
+        stack: ["Java", "JavaFX", "Assembly"],
+        image: "/banners/re3-mercenaries-editor-banner-v2.png",
+        github: "https://github.com/jmncamilo/re3-merc-item-editor",
         type: "tech"
     },
     {
