@@ -27,7 +27,7 @@ export const businessProjects = [
         problem: "Manipulación de datos, fugas de capital y procesos manuales ineficientes que impiden un control financiero preciso y un manejo seguro del flujo de caja.",
         learned: "Arquitectura full-stack con Next.js (App Router), integración de PostgreSQL con Supabase y seguridad mediante Control de Acceso Basado en Roles (RBAC).",
         stack: ["Next.js", "PostgreSQL (Supabase)", "Tailwind CSS", "Cloud (Vercel)"],
-        image: "/banners/gymember-app-banner-v7.png",
+        image: "/banners/apple-hub-banner-v1.png",
         github: "https://github.com/jmncamilo/apple-hub",
         demo: "https://apple-hub.vercel.app/",
         type: "business"
