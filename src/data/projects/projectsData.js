@@ -46,13 +46,13 @@ export const techProjects = [
         type: "tech"
     },
     {
-        title: "GBA Script Engine",
-        desc: "Motor de scripting personalizado para inyección de eventos en juegos de GameBoy Advance.",
-        problem: "Dificultad para crear misiones dinámicas en motores propietarios cerrados.",
-        learned: "Arquitectura orientada a objetos y comprensión profunda del ciclo de ejecución de la CPU.",
-        stack: ["C", "ARM Assembly", "Hex-Editing"],
+        title: "YFM - Field Editor",
+        desc: "Editor de bonificaciones de cartas campo en Yu-Gi-Oh! Forbidden Memories [PSX]",
+        problem: "Los valores de aumento de las cartas campo están predefinidos internamente y no pueden modificarse dentro del juego.",
+        learned: "Ingeniería inversa del procesador MIPS de PSX mediante análisis en ensamblador para localizar offsets y modificar punteros en archivos ISO.",
+        stack: ["Java", "JavaFX", "Assembly", "NO$PSX"],
         image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop",
-        github: "#",
+        github: "https://github.com/jmncamilo/yfm-field-editor",
         type: "tech"
     }
 ];
