@@ -39,7 +39,7 @@ export const techProjects = [
         title: "RE3 - Mercenaries Item Editor",
         desc: "Herramienta para editar los objetos iniciales de los personajes en el modo Mercenarios de RE3: Nemesis (1999) [PC] versión SourceNext.",
         problem: "Limitación del juego original para personalizar el equipo inicial de los personajes en modo Mercenarios.",
-        learned: "Identificación de offsets mediante ingeniería inversa, mapeo de memoria ejecutable y manipulación de bytes.",
+        learned: "Identificación de offsets mediante ingeniería inversa, mapeo de memoria del ejecutable y manipulación de bytes.",
         stack: ["Java", "JavaFX", "Assembly"],
         image: "/banners/re3-mercenaries-editor-banner-v2.png",
         github: "https://github.com/jmncamilo/re3-merc-item-editor",
