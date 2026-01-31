@@ -6,7 +6,7 @@ import { Briefcase, Cpu, Eye, Github, ExternalLink } from "lucide-react";
 export function ProjectCard({ title, desc, problem, learned, stack, github, demo, image, type }) {
     const [showPreview, setShowPreview] = useState(false);
 
-    // TODO: ícono de GitHub está deprecado en lucide react, razón por la que se debe importar como svg en este componente para evitar problema futuros
+    // TODO: ícono de GitHub está deprecado en lucide react, razón por la que se debe importar como svg en este componente para evitar problemas futuros
 
     return (
         <div
