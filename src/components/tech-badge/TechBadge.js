@@ -6,7 +6,7 @@ export function TechBadge({ name, iconUrl }) {
         iconUrl || `https://cdn.simpleicons.org/${name.toLowerCase().replace('.', 'dot').replace(' ', '')}`
     );
 
-    // TODO: cambiar imagen por defecto cuando onError se ejecute, es decir cuando no se cargue correctamente la imagen que llega en la prop
+    // TODO: cambiar imagen cuando onError se ejecute, es decir cuando no se cargue correctamente la imagen que llega en la prop. Buscar un logo genérico o figura...
 
     return (
         <div className="flex items-center gap-3 p-3 rounded-xl bg-[#1e1e22] border border-white/5 hover:border-white/20 transition-all group">
