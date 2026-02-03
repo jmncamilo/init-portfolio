@@ -4,7 +4,7 @@ import { TechBadge } from "@/components/tech-badge/TechBadge";
 import { logoDictionary } from "@/utils/dictionaries/logoDictionary";
 
 export function StackSection() {
-    // Constantes para las categorías del tech stack mostradas en la landing
+    // Constantes para las categorías del tech stack mostradas en la landing page
     const categories = [
         {
             title: "Frontend",
