@@ -18,7 +18,7 @@ export const businessProjects = [
         stack: ["React.js", "Express.js", "MySQL", "Jest"],
         image: "/banners/gymember-app-banner-v3.png",
         github: "https://github.com/jmncamilo/gymember-app",
-        demo: "#",
+        demo: "https://gymember-demo.vercel.app",
         type: "business"
     },
     {
