@@ -16,6 +16,15 @@ import {
 } from 'lucide-react';
 
 export default function Landing() {
+    // Handles click of downloads buttons
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/cv/CVCJ.pdf';
+        link.download = 'CVCJ.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
 
     return (
         <div className="min-h-screen bg-[#111113] text-gray-200 selection:bg-orange-500/30">
@@ -55,7 +64,9 @@ export default function Landing() {
                                     Ver Proyectos
                                 </a>
                                 <button
-                                    className="flex items-center gap-2 px-8 py-4 bg-white/5 border border-white/10 text-white font-bold rounded-xl hover:bg-white/10 transition-all">
+                                    className="flex items-center gap-2 px-8 py-4 bg-white/5 border border-white/10 text-white font-bold rounded-xl hover:bg-white/10 transition-all"
+                                    onClick={handleDownload}
+                                >
                                     <Download size={20}/>
                                     Descargar CV
                                 </button>
