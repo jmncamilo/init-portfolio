@@ -2,6 +2,11 @@ import { useEffect, useState } from "react";
 import { Terminal } from "lucide-react";
 
 export function Navbar() {
+    // Handles opening CV in the browser
+    const handleViewCV = () => {
+        window.open('/cv/CVCAMILOJIMENEZ.pdf', '_blank', 'noopener,noreferrer');
+    };
+
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
@@ -28,7 +33,10 @@ export function Navbar() {
                     <a href="#home" className="hover:text-white transition-colors">Inicio</a>
                     <a href="#proyectos" className="hover:text-white transition-colors">Proyectos</a>
                     <a href="#contacto" className="hover:text-white transition-colors">Contacto</a>
-                    <button className="px-5 py-2 rounded-full font-sans bg-white/5 border border-white/10 text-white hover:bg-white/10 transition-all">
+                    <button
+                        className="px-5 py-2 rounded-full font-sans bg-white/5 border border-white/10 text-white hover:bg-white/10 transition-all"
+                        onClick={handleViewCV}
+                    >
                         VER CV
                     </button>
                 </div>

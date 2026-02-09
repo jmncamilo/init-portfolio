@@ -19,8 +19,8 @@ export default function Landing() {
     // Handles click of downloads buttons
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/cv/CVCJ.pdf';
-        link.download = 'CVCJ.pdf';
+        link.href = '/cv/CVCAMILOJIMENEZ.pdf';
+        link.download = 'CVCAMILOJIMENEZ.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
