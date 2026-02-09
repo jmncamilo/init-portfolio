@@ -51,7 +51,7 @@ export const techProjects = [
         problem: "Los valores de aumento de las cartas campo están predefinidos internamente y no pueden modificarse dentro del juego.",
         learned: "Ingeniería inversa del procesador MIPS de PSX mediante análisis en ensamblador para localizar offsets y modificar punteros en archivos ISO.",
         stack: ["Java", "JavaFX", "Assembly", "NO$PSX"],
-        image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop",
+        image: "/banners/field-editor-banner-v1.png",
         github: "https://github.com/jmncamilo/yfm-field-editor",
         type: "tech"
     }
