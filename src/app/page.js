@@ -60,7 +60,7 @@ export default function Landing() {
 
                             <div className="flex flex-wrap gap-4">
                                 <a href="#proyectos"
-                                   className="flex items-center gap-2 px-8 py-4 bg-white text-black font-bold rounded-xl hover:bg-[#e2734b] hover:text-white transition-all transform hover:-translate-y-1">
+                                   className="flex items-center gap-2 px-8 py-4 bg-white text-black font-bold rounded-xl hover:bg-[#fb913c] hover:text-white transition-all transform hover:-translate-y-1">
                                     Ver Proyectos
                                 </a>
                                 <button
@@ -159,7 +159,7 @@ export default function Landing() {
                         </div>
 
                         <button
-                            className="w-full p-8 rounded-3xl bg-gradient-to-tr from-orange-600 to-rose-600 text-white font-bold text-2xl cursor-pointer hover:shadow-2xl hover:shadow-orange-500/20 transition-all">
+                            className="w-full p-8 rounded-3xl bg-gradient-to-tr from-orange-600 to-rose-600 text-white font-bold text-2xl cursor-none hover:shadow-2xl hover:shadow-orange-500/20 transition-all">
                             Resolvamos desafíos juntos
                         </button>
                     </div>
